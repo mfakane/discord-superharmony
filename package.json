@@ -1,0 +1,33 @@
+{
+  "name": "discord-superharmony",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "@yamdbf/core": "^4.0.0-indev.4ab40dce5e3b44a853712f604edb0137a3da1211",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "erlpack": "^0.1.3",
+    "libsodium-wrappers": "^0.7.9",
+    "utf-8-validate": "^5.0.4",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.33",
+    "@types/dotenv-safe": "^8.1.1",
+    "@types/node": "^14.14.41",
+    "@types/validator": "^13.1.3",
+    "@types/ws": "^7.4.1",
+    "tslint": "^5.20.1",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^4.2.4"
+  }
+}
